@@ -32,6 +32,11 @@ async function connectDB() {
 
 connectDB();
 
+// Root route for testing
+app.get('/', (req, res) => {
+  res.json({ message: "Syndicate Salman API is running!", status: "online" });
+});
+
 // Get all transactions
 app.get('/api/transactions', async (req, res) => {
   console.log("GET /api/transactions");
