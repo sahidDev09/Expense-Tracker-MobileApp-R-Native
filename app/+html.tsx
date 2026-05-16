@@ -42,11 +42,4 @@ const responsiveStyles = `
     padding: 0;
     overflow: hidden;
   }
-
-  /* Fix for invisible icons by forcing font-display */
-  @font-face {
-    font-family: 'Ionicons';
-    src: url('/assets/node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/Ionicons.ttf');
-    font-display: block;
-  }
 `;
