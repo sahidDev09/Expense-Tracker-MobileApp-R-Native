@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "scripts": {
     "start": "expo start",
-    "build": "npx expo export -p web",
+    "build": "npx expo export -p web && node scripts/fix-vercel-fonts.js",
     "server": "node backend/server.js",
     "reset-project": "node ./scripts/reset-project.js",
     "android": "expo start --android",
