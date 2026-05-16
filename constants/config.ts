@@ -14,7 +14,7 @@ const PORT = '5001';
 
 // Replace this with your actual Render URL after deployment
 // Example: https://syndicate-api.onrender.com
-const RENDER_API_URL = 'https://YOUR-RENDER-API-URL.onrender.com';
+const RENDER_API_URL = 'https://expense-tracker-mobileapp-r-native.onrender.com/api';
 
 // On Web, we want to use the Render URL in production, or localhost in dev
 // On Mobile, we need the full URL (use your computer's IP for local testing)
